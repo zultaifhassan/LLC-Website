@@ -1,0 +1,645 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@100;200;300;400;500;600&family=Merriweather:ital@0;1&family=Roboto:wght@100&family=Work+Sans:wght@400;500;800&display=swap');
+
+/* Prenav CSS */
+
+.prenav {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: end;
+
+}
+
+.prenav img {
+    height: 24px;
+    width: 24px;
+}
+
+.prenav p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 0px; 
+
+}
+
+.mail-call {
+    display: flex;
+    gap: 24px;
+}
+
+
+.icon-mail {
+    display: flex;
+    gap: 6px;
+    align-items: end;
+}
+
+.icon-time {
+    display: flex;
+    gap: 6px;
+    height: 24px;
+    align-items: end;
+}
+
+
+
+/* Navbar Styling */
+
+.main-navbar {
+    box-shadow: 0px 24px 34px 0px #00000026;
+    height: 82px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 999;
+}
+
+.logo-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center-links ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 82px;
+    gap: 34px;
+}
+
+.center-links ul li{
+    list-style: none;
+
+}
+.center-links ul li a {
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    cursor: pointer;
+}
+
+.center-links ul li a:hover {
+    color: red;
+}
+.sign-but a {
+    text-decoration: none;
+}
+
+.sign-but a button {
+    height: 49px;
+    width: 200px;
+    border-radius: 100px;
+    color: #ED1C24;
+    border: 1px solid #ED1C24;
+    background-color: #fff;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+
+}
+
+.sign-but a button:hover {
+    background-color: #ED1C24;
+    color: #fff;
+}
+
+
+
+/* Main Image Section Styling */
+
+.main-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.text-side {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    height: 586px;
+    height: 250px;
+    margin-top: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.text-side h1 {
+    font-family: Inter;
+    width: 100%;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4D4D4D;
+}
+
+.text-side p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4D4D4D;
+}
+.text-side button {
+    width: 200px;
+    height: 54px;
+    padding: 16px, 0px, 16px, 0px;
+    border-radius: 50px;
+    border: 1px;
+    gap: 10px;
+    background: #fff;
+    border: 1px solid #ED1C24;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: red;
+
+}
+
+.text-side button:hover {
+    background-color: #ED1C24;
+    color: #ffff;
+}
+
+
+.image-side {
+    width: 760px;
+    position: absolute;
+    left: 346px;
+    top: 210px;
+}
+
+.image-side img {
+    width: 100%;
+}
+
+
+
+/* Client Section Styling */
+
+.client-sec {
+    height: 286px;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.client-sec h2 {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #4D4D4D;
+
+}
+
+.client-sec span {
+    color: #D10400;
+}
+
+.client-sec p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #717171;
+}
+
+.client-brand {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.client-brand img {
+    height: 62px;
+    width: 62px;
+}
+
+
+
+/* Image-LLC Styling */
+
+.image-llc {
+    height: 494px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.house-img {
+    width: 50%;
+}
+
+.house-img img {
+    width: 462px;
+    height: 370px;
+
+}
+
+.text-side1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text-side1 h1 {
+    font-family: Inter;
+    width: 100%;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4D4D4D;
+}
+
+.text-side1 p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4D4D4D;
+}
+.text-side1 button {
+    width: 200px;
+    height: 54px;
+    padding: 16px, 0px, 16px, 0px;
+    border-radius: 50px;
+    border: 1px;
+    gap: 10px;
+    background: #fff;
+    border: 1px solid #ED1C24;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: red;
+
+}
+
+.text-side1 button:hover {
+    background-color: #ED1C24;
+    color: #ffff;
+}
+
+
+
+/* Assurance-sec Styling */
+
+.Assurance-sec {
+    height: 298px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.Assurance-sec h2 {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #D10400;
+
+}
+
+.Assurance-sec p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #717171;
+
+}
+
+.Assurance-sec button {
+    width: 210px;
+    height: 54px;
+    padding: 16px, 0px, 16px, 0px;
+    border-radius: 50px;
+    border: 1px;
+    gap: 10px;
+    border: 1px solid #ED1C24;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #ED1C24;
+    color: #ffff;
+    
+}
+
+.Assurance-sec button:hover {
+    background: #fff;
+    color: red;
+}
+
+
+
+.map-image {
+    width: 100%;
+    height: 576px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.find-map {
+    gap: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.find-map h2 {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4D4D4D;
+
+}
+
+.find-map p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #717171;
+
+}
+.find-map button {
+    width: 200px;
+    height: 54px;
+    padding: 16px, 0px, 16px, 0px;
+    border-radius: 50px;
+    border: 1px;
+    gap: 10px;
+    background: #fff;
+    border: 1px solid #ED1C24;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: red;
+
+}
+
+.find-map button:hover {
+    background-color: #ED1C24;
+    color: #ffff;
+}
+
+
+.img-map {
+    width: 50%;
+}
+
+.img-map img {
+    width: 100%;
+    height: 400px;
+}
+
+
+
+
+.needs-sec {
+    height: 298px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #FBFBFB;
+}
+
+.needs-sec h2 {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #D10400;
+
+}
+
+.needs-sec p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #717171;
+
+}
+
+.needs-sec button {
+    width: 210px;
+    height: 54px;
+    padding: 16px, 0px, 16px, 0px;
+    border-radius: 50px;
+    border: 1px;
+    gap: 10px;
+    border: 1px solid #ED1C24;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #ED1C24;
+    color: #ffff;
+    
+}
+
+.needs-sec button:hover {
+    background: #fff;
+    color: red;
+}
+
+
+
+/* Footer Section Styling */
+
+.last-sec {
+    height: 334px;
+    display: flex;
+    align-items: center;
+}
+
+.f-logo {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.f-logo img {
+    width: 166.25px;
+    height: 50px;
+
+}
+
+.f-logo p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    /* line-height: 25px; */
+    letter-spacing: 0em;
+    text-align: left;
+    color: #313131;
+
+}
+
+.social-icones {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icones img {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+
+}
+
+
+.f-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 16%;
+}
+.f-links h3 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0px;
+    
+}
+
+.f-links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0px;
+}
+
+.f-links li {
+    list-style: none;
+    justify-content: left;
+}
+.f-links a {
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #313131;
+
+}
+
+
+.f-searchbar {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    height: 190px;
+}
+
+.f-searchbar h3 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.search-bar {
+    width: 255px;
+    border: 1px solid #FBD2D3;
+    height: 40px;
+    border-radius: 8px;
+    /* opacity: 20%; */
+    background-color: #FBD2D3;
+    padding-left: 15px;
+}
+
+.search-bar input {
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+
