@@ -20,10 +20,21 @@ app.use(bodyParser.json())
 
 app.use("/contact", async (req,res) => {
     try {
-        console.log(req.body, "zultaif") 
-        // const payload = req.body;
-        // const contact = await Contact.create(payload)
-        res.json({message: "contact detail",})
+        console.log(req.body) 
+        const payload = req.body;
+        const contact = await Contact.create(payload)
+        res.json({message: "contact detail", contact})
+    }
+    catch(err){
+        console.log(err)
+    }
+})
+
+app.use("/getContact", async (req,res) => {
+    try {
+
+        const contacts = await Contact.find()
+        res.json(contacts)
     }
     catch(err){
         console.log(err)

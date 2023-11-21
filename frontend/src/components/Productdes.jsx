@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Counter from './Counter';
 import { useParams } from 'react-router-dom';
-import Loader from './Loader';
 
 const Productdes = () => {
 
@@ -21,7 +20,6 @@ const Productdes = () => {
 
   return (
     <>
-        <Loader />
     <div className='singleproduct container mt-5'>
         <h1>Products Description</h1>
         <div className='productone mt-5 mb-5'>

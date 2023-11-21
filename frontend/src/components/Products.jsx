@@ -2,7 +2,6 @@ import React from "react";
 import { useEffect, useState } from "react";
 import "./styles.css";
 import { Link } from "react-router-dom";
-import Loader from "./Loader";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
@@ -19,7 +18,6 @@ useEffect(() => {
 
   return (
     <div className="product-list"> 
-    <Loader />
       {products.map((product) => {
           return ( 
               <div className="cards">

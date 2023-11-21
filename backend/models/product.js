@@ -10,7 +10,11 @@ const productSchema = new mongoose.Schema({
         type: String,
         default: null,
     },
-    descrition: {
+    message: {
+        type: String,
+        default: "",
+    },
+    imageUrl: {
         type: String,
         default: "",
     },
