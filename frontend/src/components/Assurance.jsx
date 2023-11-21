@@ -22,7 +22,7 @@ const Assurance = () => {
     </div>
 
     <div className='needs-sec'>
-        <h2>Our Journey, Your Assurance</h2>
+        <h2>Ready to Fuel Your Needs?</h2>
         <p>Dedicated to Delivering Excellence in Fuel Hauler Carrier and Gas Hauler Services</p>
         <button>Get in Touch <img src="/Images/Vector.png" alt="" /></button>
     </div>
